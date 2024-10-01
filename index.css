@@ -1,0 +1,67 @@
+:root {
+    --primaryBlue:  #5484C8;
+    --secondaryBlue: #9BBEE8;
+}
+
+body {
+    background-color: #D8E4FF;
+}
+.img-logo {
+    width: 100px;
+}
+
+.form-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#containerWrap, #containerWrap2 {
+    flex: 1;
+    padding: 10px;
+}
+
+.login-card {
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #FFF;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-title {
+    color: #5484C8;
+}
+
+.btn-primary {
+    background-color: #5484C8;
+    border-color: #5484C8;
+}
+
+.btn-primary:hover {
+    background-color: #9BBEE8;
+    border-color: #9BBEE8;
+}
+
+.input-group-text {
+    background-color: #9BBEE8;
+    border-color: #9BBEE8;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.is-invalid ~ .invalid-feedback {
+    display: block;
+}
